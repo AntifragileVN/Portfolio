@@ -369,6 +369,10 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+	:root {
+		--h2-font-size: 20px;
+	}
+
 	.nav__menu {
 		display: flex;
 		align-self: start;
